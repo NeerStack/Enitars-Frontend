@@ -528,7 +528,7 @@
         await Swal.fire({
             title: "Coming soon!",
             // text: "App is still in development, Join waiting list via 'Contact Us' section and use 'Join Waiting List' as subject",
-            html: `<p>The application is currently under development. To join the waiting list, please navigate to the <strong>Contact Us</strong> section and use <strong>Join Waiting List</strong> as the subject.</p>`,
+            html: `<p>The application is currently under development. To join the waiting list, please navigate to the <strong>Contact Us</strong> section and use <strong>Join Wait List</strong> as the subject.</p>`,
             icon: "info",
             confirmButtonColor: "#845bf3"
         })
