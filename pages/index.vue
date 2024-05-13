@@ -509,18 +509,18 @@
 <script setup>
     import PlayStoreImg from '~/assets/img/play-store-badge.svg'
     import AboutImg from '~/assets/img/about.svg';
-    import Port1 from '~/assets/img/portfolio-1.jpg';
-    import Port2 from '~/assets/img/portfolio-2.jpg';
-    import Port3 from '~/assets/img/portfolio-3.jpg';
-    import Port4 from '~/assets/img/portfolio-4.jpg';
-    import Port5 from '~/assets/img/portfolio-5.jpg';
-    import Port6 from '~/assets/img/portfolio-6.jpg';
-    import Test1 from '~/assets/img/testimonial-1.jpg';
-    import Test2 from '~/assets/img/testimonial-2.jpg';
-    import Test3 from '~/assets/img/testimonial-3.jpg';
-    import Team1 from '~/assets/img/team-1.jpg';
-    import Team2 from '~/assets/img/team-2.jpg';
-    import Team3 from '~/assets/img/team-3.jpg';
+    // import Port1 from '~/assets/img/portfolio-1.jpg';
+    // import Port2 from '~/assets/img/portfolio-2.jpg';
+    // import Port3 from '~/assets/img/portfolio-3.jpg';
+    // import Port4 from '~/assets/img/portfolio-4.jpg';
+    // import Port5 from '~/assets/img/portfolio-5.jpg';
+    // import Port6 from '~/assets/img/portfolio-6.jpg';
+    // import Test1 from '~/assets/img/testimonial-1.jpg';
+    // import Test2 from '~/assets/img/testimonial-2.jpg';
+    // import Test3 from '~/assets/img/testimonial-3.jpg';
+    // import Team1 from '~/assets/img/team-1.jpg';
+    // import Team2 from '~/assets/img/team-2.jpg';
+    // import Team3 from '~/assets/img/team-3.jpg';
     import Hero from '~/assets/img/hero.svg';
     import Swal from 'sweetalert2'
 

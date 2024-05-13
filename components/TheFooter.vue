@@ -95,10 +95,10 @@
 </template>
 <script setup>
     import Enitars_White from '~/assets/img/enitar_white.png'
-     import Port1 from '~/assets/img/portfolio-1.jpg';
-    import Port2 from '~/assets/img/portfolio-2.jpg';
-    import Port3 from '~/assets/img/portfolio-3.jpg';
-    import Port4 from '~/assets/img/portfolio-4.jpg';
-    import Port5 from '~/assets/img/portfolio-5.jpg';
-    import Port6 from '~/assets/img/portfolio-6.jpg';
+    //  import Port1 from '~/assets/img/portfolio-1.jpg';
+    // import Port2 from '~/assets/img/portfolio-2.jpg';
+    // import Port3 from '~/assets/img/portfolio-3.jpg';
+    // import Port4 from '~/assets/img/portfolio-4.jpg';
+    // import Port5 from '~/assets/img/portfolio-5.jpg';
+    // import Port6 from '~/assets/img/portfolio-6.jpg';
 </script>
