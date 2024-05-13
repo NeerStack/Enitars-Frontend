@@ -108,6 +108,14 @@ export default defineNuxtConfig({
       ]
     }
 },
+ssr: false
+// vite:{
+//   plugins:[
+//       Icons({
+//           autoInstall: true
+//       })
+//   ]
+// },
 
 
 })
