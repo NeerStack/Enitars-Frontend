@@ -1,7 +1,7 @@
 <template>
         <!-- Navbar & Hero Start -->
         <div class="container-xxl bg-primary position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <nav class="navbar navbar-expand-lg  navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <NuxtLink href="/" class="navbar-brand p-0">
                     <!-- <h1 class="m-0">Enitars</h1> -->
                     <img :src="logo ? Enitars : Enitars_White" alt="Logo">

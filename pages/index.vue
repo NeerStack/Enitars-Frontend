@@ -62,7 +62,7 @@
 
                         <div class="col-lg-12">
                         <div class="features-content">
-                            <h2 class="section-title">💡 Why Enitars?</h2>
+                            <h2 class="mb-4">💡 Why Enitars?</h2>
 
                             <ul>
                         <li>
@@ -222,7 +222,7 @@
 
 
         <!-- Newsletter Start -->
-        <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container py-5 px-lg-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-7 text-center">
@@ -236,7 +236,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Newsletter End -->
 
 
@@ -495,6 +495,9 @@
                                     </div>
                                 </div>
                             </form>
+                            <div class="col-lg-12 mb-4 mt-2 text-center signuas" v-if="Loading">
+                                <span class="spinner-border spinner-border-sm"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -534,7 +537,8 @@
     const name = ref("");
     const email = ref("");
     const subject = ref("");
-    const message = ref("")
+    const message = ref("");
+    const Loading = ref(false)
 
     const Toast = Swal.mixin({
     toast: true,
@@ -549,6 +553,7 @@
 })
 
     const sendContact = async() => {
+        Loading.value = true
         const body = {
             name: name.value,
             email: email.value,
@@ -566,20 +571,29 @@
         const data = await res.json()
 
         if(data.status){
+            Loading.value = false
             Toast.fire({
                 icon: "success",
-                message: "Message sent successfully"
+                title: "Message sent successfully"
             })
             name.value = ""
             email.value = ""
             subject.value = ""
             message.value = ""
         }else{
+            Loading.value = false
             Toast.fire({
                 icon: "error",
-                message: "Unable to send message, please try again"
+                title: "Unable to send message, please try again"
             })
         }
     }
+
+    const setdata = {
+    title: "Enitars",
+    }
+    useHead({
+        title: computed(() => setdata.title)
+    })
 
 </script>
