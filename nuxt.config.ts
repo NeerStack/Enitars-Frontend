@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     head:{
       // __dangerouslyDisableSanitizers: ['script', 'link'],
       link:[
-        {href:"~/assets/img/favicon.ico", rel:"icon"},
+        // {href:"~/assets/img/favicon.ico", rel:"icon"},
         {rel:"preconnect", href:"https://fonts.googleapis.com"},
         {rel:"preconnect", href:"https://fonts.gstatic.com", crossorigin: ""},
         {href:"https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap", rel:"stylesheet"},
