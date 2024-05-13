@@ -10,8 +10,34 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/color-mode": "^3.1.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@pinia/nuxt": "^0.5.1",
+    "jquery": "^3.6.1",
     "nuxt": "^3.11.0",
+    "pinia": "^2.0.22",
+    "pinia-plugin-persistedstate": "^2.2.0",
+    "sass": "^1.69.0",
+    "sweetalert2": "^11.11.0",
+    "tailwindcss": "^3.1.8",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "@iconify-json/fa6-brands": "^1.1.13",
+    "@iconify-json/fa6-solid": "^1.1.15",
+    "@iconify-json/ic": "^1.1.14",
+    "@iconify-json/ion": "^1.1.4",
+    "autoprefixer": "^10.4.8",
+    "css-loader": "^6.7.1",
+    "cssnano": "^5.1.13",
+    "mini-css-extract-plugin": "^2.6.1",
+    "nuxt-compress": "^5.0.0",
+    "postcss": "^8.4.16",
+    "postcss-loader": "^7.0.1",
+    "sass-loader": "^13.3.2",
+    "unplugin-icons": "^0.17.0"
   }
 }
