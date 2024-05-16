@@ -13,7 +13,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
                         <NuxtLink href="/" class="nav-item nav-link" >Home</NuxtLink>
-                        <NuxtLink href="#about" class="nav-item nav-link">About</NuxtLink>
+                        <NuxtLink href="/#about" class="nav-item nav-link">About</NuxtLink>
                         <!-- <a href="/service" class="nav-item nav-link">Service</a>
                         <a href="/project" class="nav-item nav-link">Project</a>
                         <div class="nav-item dropdown">
@@ -24,7 +24,7 @@
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div> -->
-                        <NuxtLink href="#contact-us" class="nav-item nav-link" >Contact</NuxtLink>
+                        <NuxtLink href="/#contact-us" class="nav-item nav-link" >Contact</NuxtLink>
                     </div>
                     <!-- <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a> -->
                 </div>

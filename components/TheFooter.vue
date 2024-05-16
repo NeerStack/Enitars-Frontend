@@ -29,10 +29,10 @@
                     </div>
                     <div class="col-md-4 col-lg-4">
                         <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
-                        <NuxtLink class="btn btn-link" href="#about">About Us</NuxtLink>
-                        <NuxtLink class="btn btn-link" href="#contact-us">Contact Us</NuxtLink>
-                        <!-- <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a> -->
+                        <NuxtLink class="btn btn-link" href="/#about">About Us</NuxtLink>
+                        <NuxtLink class="btn btn-link" href="/#contact-us">Contact Us</NuxtLink>
+                        <NuxtLink class="btn btn-link" href="/privacy">Privacy Policy</NuxtLink>
+                        <NuxtLink class="btn btn-link" href="/term">Terms & Condition</NuxtLink>
                         <!-- <a class="btn btn-link" href="">Career</a> -->
                     </div>
                     <!-- <div class="col-md-6 col-lg-3">
