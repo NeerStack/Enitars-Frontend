@@ -1,5 +1,5 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
- 
+
 module.exports = {
   module: {
     rules: [
@@ -10,7 +10,7 @@ module.exports = {
           "css-loader",
           "postcss-loader",
           "sass-loader",
-          
+
         ]
       },
       {
@@ -27,7 +27,7 @@ module.exports = {
     ]
   },
   resolve:{
-    extensions: ['.vue', '.ts', '.js']
+    extensions: ['.vue', '.ts', '.js', ".json"]
   },
   plugins: [
     new MiniCssExtractPlugin({ filename: "[name].[hash].css" })
@@ -51,5 +51,5 @@ module.exports = {
     }
   }
   }
-  
+
 };

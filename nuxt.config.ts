@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   css:[
     '~/assets/lib/animate/animate.min.css', '~/assets/lib/owlcarousel/assets/owl.carousel.min.css', '~/assets/lib/lightbox/css/lightbox.min.css', '~/assets/css/bootstrap.min.css', '~/assets/css/style.css'
   ],
+
   app:{
     head:{
       // __dangerouslyDisableSanitizers: ['script', 'link'],
@@ -108,14 +109,15 @@ export default defineNuxtConfig({
       ]
     }
 },
-ssr: false
-// vite:{
-//   plugins:[
-//       Icons({
-//           autoInstall: true
-//       })
-//   ]
-// },
 
+  // vite:{
+  //   plugins:[
+  //       Icons({
+  //           autoInstall: true
+  //       })
+  //   ]
+  // },
+  ssr: false,
 
+  compatibilityDate: "2024-07-21",
 })
