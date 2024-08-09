@@ -8,7 +8,7 @@
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated slideInDown">Welcome to Enitars: Your Gateway to AI Empowerment</h1>
                             <p class="text-white pb-3 animated slideInDown">Unlock the Power of AI on Your Mobile Device</p>
-                            <NuxtLink class="rounded-pill animated slideInLeft" to="https://play.google.com/store/apps/details?id=com.codinmage.magehub" target="_blank"><img height="60" :src="PlayStoreImg"> </NuxtLink>
+                            <NuxtLink class="rounded-pill animated slideInLeft" to="https://play.google.com/store/apps/details?id=com.codinmage.magehub&pcampaignid=web_share" target="_blank"><img height="60" :src="PlayStoreImg"> </NuxtLink>
                             <!-- <a href="" class="btn btn-light py-sm-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a> -->
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
